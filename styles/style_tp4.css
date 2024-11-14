@@ -1,0 +1,157 @@
+/*Partie 1*/
+
+/*Couleur arriere et police*/ /**/
+body{
+    background-color: rgb(211, 207, 207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+/*Couleur texte et alignement paragraphes*/
+    p{
+        color: rgb(90, 11, 11);
+        text-align: center;
+    }
+/*Alignement titres*/    
+h1,h2{
+    text-align: center;
+}
+/*Alignement image*/
+img{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+/*Marges*/  
+p{
+margin: 0;
+padding: 0;
+}
+/*Modification div principale*/
+.Principale{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Partie 2*/
+.index{
+/*Modification du logo boutique et autres*/
+.texteBoutique{
+    color: brown;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+    text-decoration-color: blue;
+    font-size: 20px;
+}
+.texteBoutique:hover{
+    color: red;
+}
+#soulignement{
+ color: brown;
+ text-decoration: underline;
+ text-decoration-thickness: 2px;
+ font-weight: bold;
+ text-decoration-color: blue;
+}
+
+.imageboutique{
+    position: relative;
+    right: 80px;
+    margin-bottom: 10px;
+}
+
+#boutique{
+    margin-bottom: 20px;
+}
+.imageTexte{
+    text-align: center;
+}
+
+#images{
+    border-radius: 10px;
+}
+/*Modification Titres*/
+h2{
+   color: rgb(68, 12, 12); 
+}
+p{
+    text-align: justify;
+}
+/*Modification caracteristiques principales*/
+#Caracteristiques {
+    list-style-type: none;
+    padding: 0px;
+    text-align: left;
+    padding: 0px;
+}
+#border{
+    border-style: groove;
+    background-color: rgb(226, 226, 226);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*Modification liens*/
+#liens{
+    text-align: left;
+    padding-left: 25px;
+}
+#liens a{
+    color: black;
+    text-decoration: none;
+}
+#liens a:hover{
+    color: red;
+}
+}
+/*Partie 3*/
+.jeux {
+    /*Bordues du tableau et titre*/
+    .table{
+        width: 320px;
+    td, th{
+        border: none;
+    }
+    
+    text-align: center;
+    margin: auto;
+}
+.liste{
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: underline;
+}
+/*Changement des colonnes*/
+.quatrecolonne{
+    padding: 10px;
+}
+#images{
+    border-radius: 10px;
+
+}
+/*Modification boutons*/
+button{
+    background-color: rgb(20, 119, 119);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    color: black;
+}
+}
+
+
+
+
+    
+
